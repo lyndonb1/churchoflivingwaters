@@ -63,9 +63,24 @@ Tell me: "Apply this change to both pages" and I'll update both `index.html` and
 5. Test alternative page at http://localhost:8000/alternative.html
 6. Commit and push when satisfied
 
-## Quick Commands
+## Local Preview Troubleshooting
 
-### Preview Locally (Windows)
+### "Terminal Hanging" Issue
+The Python server runs continuously to serve your files—this is normal! It appears "hung" but is actually working.
+
+**To Stop:**
+- Press `Ctrl + C` in the terminal
+- If stuck, close the terminal or run: `taskkill /f /im python.exe`
+
+### Alternative: VS Code Live Server (Recommended)
+1. Install the **Live Server** extension in VS Code
+2. Right-click `index.html` → **"Open with Live Server"**
+3. It auto-opens in browser and reloads on save
+4. No terminal needed, no "hanging"!
+
+### Quick Commands
+
+#### Preview Locally (Windows)
 ```cmd
 preview.bat
 ```
@@ -75,10 +90,10 @@ Or with PowerShell:
 ./preview.ps1
 ```
 
-### View in Browser
+#### View in Browser
 - Main: http://localhost:8000/index.html
 - Alternative: http://localhost:8000/alternative.html
 
-### Stop Server
+#### Stop Server
 Press `Ctrl+C` in the terminal
 
