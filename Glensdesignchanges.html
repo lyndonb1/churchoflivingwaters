@@ -9,13 +9,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="antialiased selection:bg-sky-300/30 selection:text-sky-100 bg-slate-950 text-white" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';">
-    <!-- Background video (waterfall) - Remote video version -->
+    <!-- Background video (waterfall) -->
     <div class="fixed inset-0 -z-10">
       <video class="h-full w-full object-cover" autoplay muted loop playsinline preload="auto">
-        <!-- Remote video sources -->
-        <source src="https://www.pexels.com/download/video/6394054/" type="video/mp4">
-        <!-- Local video file (commented out) -->
-        <!-- <source src="147396-791521791_small.mp4" type="video/mp4"> -->
+        <!-- Local video file -->
+        <source src="147396-791521791_small.mp4" type="video/mp4">
+        <!-- Previous remote video sources (commented out for easy restoration) -->
+        <!-- <source src="https://www.pexels.com/download/video/6394054/" type="video/mp4"> -->
+        <!-- <source src="https://assets.mixkit.co/videos/preview/mixkit-waterfall-in-nature-2313-large.mp4" type="video/mp4"> -->
       </video>
       <!-- Overlay: gradient + subtle texture -->
       <div class="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/60 to-slate-900/70"></div>
@@ -72,11 +73,13 @@
             YOU CAN TRANSFORM ANYWHERE YOU ARE INTO A PLACE OF WORSHIP BECAUSE GOD IS EVERYWHERE – BE IT YOUR HOUSE, CAR, THE PARK OR THE BEACH – GOD IS EVERYWHERE AND ANYWHERE YOU ARE. NO BUILDING CAN CONTAIN GOD! BECAUSE YOU ARE THE TEMPLE OF THE MOST HIGH GOD AND GOD DWELLS IN YOU! (1 CORINTHIANS 3:16)
           </p>
 
-          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div class="mt-8 flex flex-col gap-3">
+            <span class="text-xs uppercase tracking-wide text-sky-200/90">Tap here</span>
             <a href="https://us02web.zoom.us/j/82429920651" target="_blank" class="group inline-flex items-center gap-2 rounded-lg bg-sky-400/90 px-5 py-3 text-sm font-medium text-slate-900 ring-1 ring-inset ring-sky-300/60 transition hover:bg-sky-300 hover:ring-sky-200">
               <i data-lucide="map-pin" class="h-4 w-4 text-slate-900"></i>
               Join on Zoom Sunday at 11 AM ET
             </a>
+            <span class="text-xs uppercase tracking-wide text-slate-200/80">Support the ministry outreach</span>
             <a href="#give" class="group inline-flex items-center gap-2 rounded-lg border border-white/15 bg-slate-900/40 px-5 py-3 text-sm font-medium text-slate-100 backdrop-blur transition hover:border-white/25 hover:bg-slate-900/60">
               <i data-lucide="hand-coins" class="h-5 w-5"></i>
               DONATE HERE
