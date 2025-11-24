@@ -131,3 +131,13 @@ To support this ministry:
 ---
 
 *"YOU ARE THE TEMPLE OF THE MOST HIGH GOD AND GOD DWELLS IN YOU!" - 1 Corinthians 3:16*
+
+## Commit Log
+
+### November 24, 2025 - Final Site Polish (45 minutes)
+- Added centered logo (`download.png`) to footer with responsive sizing (`w-20 md:w-24 lg:w-32`).
+- Reinforced bolding for "CHURCH WITHOUT WALLS" and "FOR EVER LIGHT YOUR PATH" using `font-black` for maximum emphasis.
+- Uniform hero vertical spacing with `mt-8` between buttons, paragraphs, and CTAs.
+- Matched "DONATE HERE" button colors to "Join on Zoom" (blue `bg-sky-400/90` theme).
+- Removed original Donate button placement; kept relocated version below new convenience/support text.
+- Integrated paragraphs: "SO CONVENIENT..." and donation appreciation message.
