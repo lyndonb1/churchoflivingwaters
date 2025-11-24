@@ -89,7 +89,7 @@ To preview the website locally:
 Edit the Zoom link and time references in `index.html`:
 ```html
 <a href="https://us02web.zoom.us/j/82429920651" target="_blank">
-  Join n Zoom Sunday at 11 AM ET
+  Join n Zoom Sunday at 11 AM EST
 </a>
 ```
 
