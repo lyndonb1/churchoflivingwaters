@@ -11,9 +11,40 @@ content:
       - name: title
         label: Title
         type: string
+
       - name: date
         label: Date
         type: date
+
       - name: body
         label: Body
+        type: rich-text
+
+
+  - name: sermons
+    label: Sermons
+    type: collection
+    path: sermons
+    view:
+      fields: [title, date]
+    fields:
+      - name: title
+        label: Title
+        type: string
+
+      - name: date
+        label: Date
+        type: date
+
+      - name: preacher
+        label: Preacher
+        type: string
+
+      - name: youtube_url
+        label: YouTube Video URL
+        type: string
+        hint: "Paste the full YouTube link here (e.g., https://www.youtube.com/watch?v=12345)"
+
+      - name: description
+        label: Description / Notes
         type: rich-text
