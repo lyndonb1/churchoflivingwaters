@@ -3,7 +3,6 @@ Write-Host "Starting local web server..." -ForegroundColor Green
 Write-Host "=====================================" -ForegroundColor Yellow
 Write-Host "Website URLs:" -ForegroundColor Cyan
 Write-Host "  Main page: http://localhost:8000/index.html" -ForegroundColor White
-Write-Host "  Alternative page: http://localhost:8000/alternative.html" -ForegroundColor White
 Write-Host ""
 Write-Host "To stop the server: Press Ctrl+C" -ForegroundColor Red
 Write-Host "To refresh: Just reload your browser tab" -ForegroundColor Green
