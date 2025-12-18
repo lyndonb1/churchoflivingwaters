@@ -53,6 +53,10 @@ To use a custom domain like `www.newjerusalemcog.org`:
 3. In GitHub Settings → Pages, enter your custom domain
 4. Enable "Enforce HTTPS" for security
 
+### DNS Configuration for Google Search Console
+
+**Note**: Added Google Search Console support through a DNS TXT record change. This allows Google to verify domain ownership and provide search analytics and indexing tools for the website.
+
 ## 🛠️ Technology Stack
 
 - **HTML5**: Semantic markup
@@ -132,15 +136,46 @@ To support this ministry:
 
 *"YOU ARE THE TEMPLE OF THE MOST HIGH GOD AND GOD DWELLS IN YOU!" - 1 Corinthians 3:16*
 
-## Commit Log
+## 📝 Commit History
 
-### November 24, 2025 - Final Site Polish (45 minutes)
-- Added centered logo (`download.png`) to footer with responsive sizing (`w-20 md:w-24 lg:w-32`).
-- Reinforced bolding for "CHURCH WITHOUT WALLS" and "FOR EVER LIGHT YOUR PATH" using `font-black` for maximum emphasis.
-- Uniform hero vertical spacing with `mt-8` between buttons, paragraphs, and CTAs.
-- Matched "DONATE HERE" button colors to "Join on Zoom" (blue `bg-sky-400/90` theme).
-- Removed original Donate button placement; kept relocated version below new convenience/support text.
-- Integrated paragraphs: "SO CONVENIENT..." and donation appreciation message.
+### December 16, 2025
+- **19:51:27** - Added a Donate here button to the newsletter.html page
+- **19:43:28** - Adding a newsletter entry
 
-### November 24, 2025 - CMS Configuration Addition (5 minutes)
-- Added `pagescms.json` for CMS integration and page management configuration.
+### December 14, 2025
+- **20:44:49** - Merge remote changes with local updates
+- **20:39:55** - Change Zoom meeting link and meeting ID
+
+### December 11, 2025
+- **01:21:07** - Update .pages.yml (via Pages CMS)
+- **00:16:25** - Additional edits
+
+### December 8, 2025
+- **20:57:38** - clarity tracking code
+- **20:45:24** - PJB edits
+- **20:32:01** - changing the google tag code
+- **20:23:44** - Added Google Tag
+- **19:26:25** - changing sections2
+- **18:40:10** - adding newsletter section
+- **18:34:38** - changes to latest message section
+- **17:30:41** - changes
+
+### November 24, 2025
+- **23:59:56** - 3rd set of text edits
+- **22:09:26** - Merge branch 'main' - pages.yml was created by cms code
+- **22:08:46** - removed unnessary cmsjson file
+- **08:22:42** - Create media/.gitkeep (via Pages CMS)
+- **08:22:07** - Update .pages.yml (via Pages CMS)
+- **08:17:16** - pagescms addition
+
+### Earlier Commits
+- Final Site Polish (45 minutes) - Added centered logo, reinforced bolding, uniform hero spacing, matched button colors
+- CMS Configuration Addition (5 minutes) - Added `pagescms.json` for CMS integration
+- DNS Configuration - Added Google Search Console support through DNS TXT record change for domain verification and search analytics
+- Added standalone privacy and terms pages with footer links
+- Add SEO & GEO metadata across site variants
+- Update hero CTAs and add design variants
+- Fix responsive title layout
+- Add local preview scripts and page sync documentation
+- Replace background video with local video file
+- Initial commit - Church website ready for GitHub Pages deployment
