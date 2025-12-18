@@ -2,6 +2,8 @@
 
 A beautiful, modern website for New Jerusalem City of God church community, featuring online worship integration, sermon streaming, and community engagement tools.
 
+**Authored by: Lyndon John Bethel**
+
 ## 🌟 Features
 
 - **Responsive Design**: Beautiful waterfall video background with modern UI using TailwindCSS
@@ -130,7 +132,9 @@ To support this ministry:
 
 ## 📄 License
 
-© 2025 New Jerusalem City of God. All rights reserved.
+This project is licensed under the **MIT License**.
+
+See the `LICENSE` file for full license text.
 
 ---
 
